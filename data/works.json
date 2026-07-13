@@ -53,16 +53,6 @@
     "placeholder": true
   },
   {
-    "id": "ugc-guy-1",
-    "category": "video",
-    "subcategory": "ugc",
-    "title": "UGC-відео",
-    "description": "Розмовний UGC-формат",
-    "type": "video",
-    "src": "assets/videos/ugc-guy.mp4",
-    "thumbnail": "assets/thumbnails/ugc-guy.jpg"
-  },
-  {
     "id": "kindergarten-cartoon-1",
     "category": "video",
     "subcategory": "animation",
