@@ -91,5 +91,15 @@
     "type": "video",
     "src": "assets/videos/nivea-cream-product.mp4",
     "thumbnail": "assets/thumbnails/nivea-cream-product.jpg"
+  },
+  {
+    "id": "lipstick-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Помада — відео товару",
+    "description": "Рекламний ролик люксової помади",
+    "type": "video",
+    "src": "assets/videos/lipstick-product.mp4",
+    "thumbnail": "assets/thumbnails/lipstick-product.jpg"
   }
 ]
