@@ -71,5 +71,15 @@
     "type": "video",
     "src": "assets/videos/dior-sauvage-product.mp4",
     "thumbnail": "assets/thumbnails/dior-sauvage-product.jpg"
+  },
+  {
+    "id": "watch-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Наручний годинник — відео товару",
+    "description": "Рекламний ролик наручного годинника",
+    "type": "video",
+    "src": "assets/videos/watch-product.mp4",
+    "thumbnail": "assets/thumbnails/watch-product.jpg"
   }
 ]
