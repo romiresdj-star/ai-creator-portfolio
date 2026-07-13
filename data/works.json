@@ -53,15 +53,14 @@
     "placeholder": true
   },
   {
-    "id": "demo-ugc-1",
+    "id": "ugc-guy-1",
     "category": "video",
     "subcategory": "ugc",
-    "title": "Приклад: UGC-відео",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "title": "UGC-відео",
+    "description": "Розмовний UGC-формат",
     "type": "video",
-    "src": "",
-    "thumbnail": "assets/thumbnails/placeholder-video.svg",
-    "placeholder": true
+    "src": "assets/videos/ugc-guy.mp4",
+    "thumbnail": "assets/thumbnails/ugc-guy.jpg"
   },
   {
     "id": "kindergarten-cartoon-1",
