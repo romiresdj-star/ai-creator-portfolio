@@ -427,7 +427,7 @@ section { position: relative; z-index: 1; padding: 64px 0; }
   gap: 10px;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  padding: 12px 20px;
+  padding: 10px 20px 10px 12px;
   border-radius: 10px;
   text-decoration: none;
   color: var(--text);
@@ -435,7 +435,48 @@ section { position: relative; z-index: 1; padding: 64px 0; }
   transition: border-color 0.2s, transform 0.2s;
 }
 
-.contact-link:hover { border-color: var(--accent-cyan); transform: translateY(-2px); }
+.contact-link:hover { transform: translateY(-2px); }
+
+.contact-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-icon svg { width: 18px; height: 18px; }
+
+/* Brand colors */
+:root {
+  --wa: #25d366;
+  --vb: #7360f2;
+  --tg: #26a5e4;
+  --ig-grad: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.icon-email { color: var(--accent-cyan); }
+.icon-wa { color: var(--wa); }
+.icon-vb { color: var(--vb); }
+.icon-tg { color: var(--tg); }
+.icon-ig { color: #ee2a7b; }
+
+.contact-link:hover .icon-wa,
+.social-float-btn.icon-wa:hover { background: var(--wa); border-color: var(--wa); color: #05070c; }
+
+.contact-link:hover .icon-vb,
+.social-float-btn.icon-vb:hover { background: var(--vb); border-color: var(--vb); color: #fff; }
+
+.contact-link:hover .icon-tg,
+.social-float-btn.icon-tg:hover { background: var(--tg); border-color: var(--tg); color: #fff; }
+
+.contact-link:hover .icon-ig,
+.social-float-btn.icon-ig:hover { background: var(--ig-grad); border-color: transparent; color: #fff; }
+
+.contact-link:hover .icon-email { background: var(--accent-cyan); color: #05070c; }
 
 /* Footer */
 footer {
@@ -483,6 +524,11 @@ footer {
   border-color: transparent;
   transform: translateY(-3px);
 }
+
+.social-float-btn.icon-wa { color: var(--wa); }
+.social-float-btn.icon-vb { color: var(--vb); }
+.social-float-btn.icon-tg { color: var(--tg); }
+.social-float-btn.icon-ig { color: #ee2a7b; }
 
 @media (max-width: 860px) {
   .social-float {
