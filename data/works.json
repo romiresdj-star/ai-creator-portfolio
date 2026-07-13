@@ -58,15 +58,14 @@
     "placeholder": true
   },
   {
-    "id": "demo-animation-1",
+    "id": "kindergarten-cartoon-1",
     "category": "video",
     "subcategory": "animation",
-    "title": "Приклад: анімація/мультфільм",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "title": "Дитячий садок — мультфільм",
+    "description": "Анімований відеоролик",
     "type": "video",
-    "src": "",
-    "thumbnail": "assets/thumbnails/placeholder-video.svg",
-    "placeholder": true
+    "src": "assets/videos/kindergarten-cartoon.mp4",
+    "thumbnail": "assets/thumbnails/kindergarten-cartoon.jpg"
   },
   {
     "id": "demo-motion-1",
