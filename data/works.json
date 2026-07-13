@@ -1,0 +1,86 @@
+[
+  {
+    "id": "demo-photosessions-1",
+    "category": "images",
+    "subcategory": "photosessions",
+    "title": "Приклад: AI-фотосесія",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "image",
+    "src": "assets/thumbnails/placeholder-images.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-banners-1",
+    "category": "images",
+    "subcategory": "banners",
+    "title": "Приклад: рекламний банер",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "image",
+    "src": "assets/thumbnails/placeholder-images.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-restoration-1",
+    "category": "images",
+    "subcategory": "restoration",
+    "title": "Приклад: реставрація фото",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "image",
+    "src": "assets/thumbnails/placeholder-images.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-stickers-1",
+    "category": "images",
+    "subcategory": "stickers",
+    "title": "Приклад: стікерпак",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "image",
+    "src": "assets/thumbnails/placeholder-images.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-ugc-1",
+    "category": "video",
+    "subcategory": "ugc",
+    "title": "Приклад: UGC-відео",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "video",
+    "src": "",
+    "thumbnail": "assets/thumbnails/placeholder-video.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-animation-1",
+    "category": "video",
+    "subcategory": "animation",
+    "title": "Приклад: анімація/мультфільм",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "video",
+    "src": "",
+    "thumbnail": "assets/thumbnails/placeholder-video.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-motion-1",
+    "category": "video",
+    "subcategory": "motion",
+    "title": "Приклад: моушн-дизайн",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "video",
+    "src": "",
+    "thumbnail": "assets/thumbnails/placeholder-video.svg",
+    "placeholder": true
+  },
+  {
+    "id": "demo-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Приклад: відео товару",
+    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "type": "video",
+    "src": "",
+    "thumbnail": "assets/thumbnails/placeholder-video.svg",
+    "placeholder": true
+  }
+]

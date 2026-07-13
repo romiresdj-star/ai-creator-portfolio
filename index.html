@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Креатор — портфоліо генеративного контенту</title>
+<meta name="description" content="Портфоліо AI-креатора: згенеровані зображення, фотосесії, банери, реставрація фото, стікери, AI-відео, анімація та моушн-дизайн.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="#top" class="logo">
+      <span class="logo-mark">AI</span>
+      <span class="logo-text">Portfolio<span>.</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#cat-images">Зображення</a>
+      <a href="#cat-video">Відео</a>
+      <a href="#about">Про мене</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Меню">&#9776;</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">AI Content Creator</span>
+      <h1>Створюю <span class="grad">згенерований контент</span><br>для брендів та проєктів</h1>
+      <p>Зображення, відео, анімація та рекламні матеріали, створені за допомогою штучного інтелекту — від ідеї до готового результату.</p>
+      <div class="hero-actions">
+        <a href="#cat-images" class="btn btn-primary">Дивитись роботи</a>
+        <a href="#contact" class="btn btn-secondary">Зв'язатись</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="stat-total">0</strong><span>робіт у портфоліо</span></div>
+        <div><strong>8</strong><span>напрямків роботи</span></div>
+        <div><strong>2</strong><span>формати: фото та відео</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Портфоліо</span>
+          <h2>Роботи по категоріях</h2>
+          <p>Обирай категорію та підрозділ, щоб переглянути роботи.</p>
+        </div>
+      </div>
+      <div id="portfolio-sections"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Про мене</span>
+          <h2>AI-креатор генеративного контенту</h2>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <p>Займаюсь створенням контенту за допомогою нейромереж: від фотореалістичних зображень і банерів до анімованих відеороликів та рекламних кампаній. Портфоліо постійно поповнюється новими роботами.</p>
+          <ul class="skills-list">
+            <li>Генерація зображень та фотосесій</li>
+            <li>Реставрація та покращення старих фото</li>
+            <li>Створення стікерів та кастомних аватарів</li>
+            <li>Генерація відео: UGC, анімація, моушн-дизайн</li>
+            <li>Рекламні креативи та відео товарів</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <p>Портфоліо структуроване по напрямках роботи, щоб було легко знайти приклади потрібного формату. Нові роботи додаються регулярно — заходь ще раз, щоб побачити оновлення.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <span class="section-kicker">Контакти</span>
+      <h2>Готовий обговорити проєкт</h2>
+      <p style="color: var(--text-dim); max-width: 480px; margin: 10px auto 0;">Напиши мені, щоб замовити роботу або обговорити співпрацю.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:your@email.com">Email</a>
+        <a class="contact-link" href="#" target="_blank" rel="noopener">Telegram</a>
+        <a class="contact-link" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    &copy; <span id="year"></span> AI Portfolio. Створено за допомогою штучного інтелекту.
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <div class="lightbox-content">
+    <div class="lightbox-media" id="lightbox-media"></div>
+    <div class="lightbox-info">
+      <h4 id="lightbox-title"></h4>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
