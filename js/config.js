@@ -8,8 +8,7 @@ const PORTFOLIO_TAXONOMY = [
     subcategories: [
       { id: "photosessions", label: "AI-фотосесії", desc: "Портретні та образні генерації" },
       { id: "banners", label: "Банери та реклама", desc: "Рекламні креативи та банери" },
-      { id: "restoration", label: "Реставрація фото", desc: "Покращення старих та розмитих фото" },
-      { id: "stickers", label: "Стікери та аватари", desc: "Кастомні стікерпаки та аватари" }
+      { id: "restoration", label: "Реставрація фото", desc: "Покращення старих та розмитих фото" }
     ]
   },
   {
@@ -18,7 +17,7 @@ const PORTFOLIO_TAXONOMY = [
     icon: "video",
     subcategories: [
       { id: "ugc", label: "UGC та розмовні відео", desc: "Talking-head та UGC-формат" },
-      { id: "animation", label: "Анімація та мультфільми", desc: "Короткі та довгі мультиплікаційні відео" },
+      { id: "animation", label: "Мультфільми: 3D, аніме та інші стилі", desc: "Короткі та довгі мультиплікаційні відео у 3D, аніме та інших стилях" },
       { id: "motion", label: "Моушн-дизайн", desc: "Динамічна анімація та моушн-графіка" },
       { id: "product", label: "Відео товарів", desc: "Рекламні ролики продуктів" }
     ]

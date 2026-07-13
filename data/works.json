@@ -30,16 +30,6 @@
     "placeholder": true
   },
   {
-    "id": "demo-stickers-1",
-    "category": "images",
-    "subcategory": "stickers",
-    "title": "Приклад: стікерпак",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
-    "type": "image",
-    "src": "assets/thumbnails/placeholder-images.svg",
-    "placeholder": true
-  },
-  {
     "id": "demo-ugc-1",
     "category": "video",
     "subcategory": "ugc",
