@@ -81,5 +81,15 @@
     "type": "video",
     "src": "assets/videos/watch-product.mp4",
     "thumbnail": "assets/thumbnails/watch-product.jpg"
+  },
+  {
+    "id": "nivea-cream-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Крем Nivea — відео товару",
+    "description": "Рекламний ролик косметичного крему",
+    "type": "video",
+    "src": "assets/videos/nivea-cream-product.mp4",
+    "thumbnail": "assets/thumbnails/nivea-cream-product.jpg"
   }
 ]
