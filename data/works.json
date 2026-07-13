@@ -1,13 +1,30 @@
 [
   {
-    "id": "demo-photosessions-1",
+    "id": "sofia-photosession-1",
     "category": "images",
     "subcategory": "photosessions",
-    "title": "Приклад: AI-фотосесія",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "title": "Софія — AI-фотосесія 1",
+    "description": "Згенерований образ на основі референсу обличчя",
     "type": "image",
-    "src": "assets/thumbnails/placeholder-images.svg",
-    "placeholder": true
+    "src": "assets/images/sofia-photosession-1.jpg"
+  },
+  {
+    "id": "sofia-photosession-2",
+    "category": "images",
+    "subcategory": "photosessions",
+    "title": "Софія — AI-фотосесія 2",
+    "description": "Згенерований образ на основі референсу обличчя",
+    "type": "image",
+    "src": "assets/images/sofia-photosession-2.jpg"
+  },
+  {
+    "id": "sofia-photosession-3",
+    "category": "images",
+    "subcategory": "photosessions",
+    "title": "Софія — AI-фотосесія 3",
+    "description": "Згенерований образ на основі референсу обличчя",
+    "type": "image",
+    "src": "assets/images/sofia-photosession-3.jpg"
   },
   {
     "id": "demo-banners-1",
