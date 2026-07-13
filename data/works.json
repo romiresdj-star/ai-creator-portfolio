@@ -63,14 +63,13 @@
     "placeholder": true
   },
   {
-    "id": "demo-product-1",
+    "id": "dior-sauvage-product-1",
     "category": "video",
     "subcategory": "product",
-    "title": "Приклад: відео товару",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
+    "title": "Dior Sauvage — відео товару",
+    "description": "Рекламний ролик флакону парфуму",
     "type": "video",
-    "src": "",
-    "thumbnail": "assets/thumbnails/placeholder-video.svg",
-    "placeholder": true
+    "src": "assets/videos/dior-sauvage-product.mp4",
+    "thumbnail": "assets/thumbnails/dior-sauvage-product.jpg"
   }
 ]
