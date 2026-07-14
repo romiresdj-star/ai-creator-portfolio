@@ -112,5 +112,15 @@
     "type": "video",
     "src": "assets/videos/lipstick-product.mp4",
     "thumbnail": "assets/thumbnails/lipstick-product.jpg"
+  },
+  {
+    "id": "sunis-solar-ad-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "SUNIS — реклама сонячних панелей",
+    "description": "Рекламний ролик компанії, що встановлює сонячні панелі",
+    "type": "video",
+    "src": "assets/videos/sunis-solar-ad.mp4",
+    "thumbnail": "assets/thumbnails/sunis-solar-ad.jpg"
   }
 ]
