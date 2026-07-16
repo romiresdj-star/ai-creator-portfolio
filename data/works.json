@@ -1,5 +1,93 @@
 [
   {
+    "id": "mia-photosession-1",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 1",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-1.jpg"
+  },
+  {
+    "id": "mia-photosession-2",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 2",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-2.jpg"
+  },
+  {
+    "id": "mia-photosession-3",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 3",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-3.jpg"
+  },
+  {
+    "id": "mia-photosession-4",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 4",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-4.jpg"
+  },
+  {
+    "id": "mia-photosession-5",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 5",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-5.jpg"
+  },
+  {
+    "id": "mia-photosession-6",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 6",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-6.jpg"
+  },
+  {
+    "id": "mia-photosession-7",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 7",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-7.jpg"
+  },
+  {
+    "id": "mia-photosession-8",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "mia-photosession",
+    "groupTitle": "Мія — фотосесія",
+    "title": "Мія — AI-фотосесія 8",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/mia-photosession-8.jpg"
+  },
+  {
     "id": "sofia-photosession-1",
     "category": "images",
     "subcategory": "photosessions",
