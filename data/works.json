@@ -209,39 +209,6 @@
     "src": "assets/images/mia-photosession-8.jpg"
   },
   {
-    "id": "sofia-photosession-1",
-    "category": "images",
-    "subcategory": "photosessions",
-    "group": "sofia-photosession",
-    "groupTitle": "Софія — фотосесія",
-    "title": "Софія — AI-фотосесія 1",
-    "description": "Згенерований образ на основі референсу обличчя",
-    "type": "image",
-    "src": "assets/images/sofia-photosession-1.jpg"
-  },
-  {
-    "id": "sofia-photosession-2",
-    "category": "images",
-    "subcategory": "photosessions",
-    "group": "sofia-photosession",
-    "groupTitle": "Софія — фотосесія",
-    "title": "Софія — AI-фотосесія 2",
-    "description": "Згенерований образ на основі референсу обличчя",
-    "type": "image",
-    "src": "assets/images/sofia-photosession-2.jpg"
-  },
-  {
-    "id": "sofia-photosession-3",
-    "category": "images",
-    "subcategory": "photosessions",
-    "group": "sofia-photosession",
-    "groupTitle": "Софія — фотосесія",
-    "title": "Софія — AI-фотосесія 3",
-    "description": "Згенерований образ на основі референсу обличчя",
-    "type": "image",
-    "src": "assets/images/sofia-photosession-3.jpg"
-  },
-  {
     "id": "demo-banners-1",
     "category": "images",
     "subcategory": "banners",
