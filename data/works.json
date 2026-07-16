@@ -1,5 +1,140 @@
 [
   {
+    "id": "fantasy-characters-styles",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Персонажі в різних стилях",
+    "description": "Один герой у кількох художніх стилях",
+    "type": "image",
+    "src": "assets/images/fantasy-characters-styles.jpg"
+  },
+  {
+    "id": "fantasy-cctv-night-scene",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Нічна сцена у стилі камери спостереження",
+    "description": "Кінематографічна стилізація під CCTV-кадр",
+    "type": "image",
+    "src": "assets/images/fantasy-cctv-night-scene.jpg"
+  },
+  {
+    "id": "fantasy-giant-kinder-egg",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Гігантський Kinder Surprise на вантажівці",
+    "description": "Сюрреалістична рекламна концепція",
+    "type": "image",
+    "src": "assets/images/fantasy-giant-kinder-egg.jpg"
+  },
+  {
+    "id": "fantasy-character-transformation",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Трансформація персонажа — історія в 4 кадрах",
+    "description": "Сюжетна розкадровка перетворення на аніме-персонажа",
+    "type": "image",
+    "src": "assets/images/fantasy-character-transformation.jpg"
+  },
+  {
+    "id": "fantasy-deadpool-pvc",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Дедпул з ПВХ-пластику",
+    "description": "Креативна текстурна концепція персонажа",
+    "type": "image",
+    "src": "assets/images/fantasy-deadpool-pvc.jpg"
+  },
+  {
+    "id": "fantasy-perfume-flatlay",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Чоловічий парфум — flatlay композиція",
+    "description": "Предметна flatlay-композиція",
+    "type": "image",
+    "src": "assets/images/fantasy-perfume-flatlay.jpg"
+  },
+  {
+    "id": "fantasy-fabric-tornado",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Торнадо з тканини",
+    "description": "Креативна текстурна концепція стихії",
+    "type": "image",
+    "src": "assets/images/fantasy-fabric-tornado.jpg"
+  },
+  {
+    "id": "fantasy-world-breaking-apart",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Світ, що розколюється",
+    "description": "Сюрреалістична студійна композиція",
+    "type": "image",
+    "src": "assets/images/fantasy-world-breaking-apart.jpg"
+  },
+  {
+    "id": "fantasy-dino-battle-mars",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Бій з динозавром на Марсі",
+    "description": "Фантастична сюжетна сцена",
+    "type": "image",
+    "src": "assets/images/fantasy-dino-battle-mars.jpg"
+  },
+  {
+    "id": "fantasy-stone-elephant",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Кам'яний слон на вулиці міста",
+    "description": "Сюрреалістична міська сцена",
+    "type": "image",
+    "src": "assets/images/fantasy-stone-elephant.jpg"
+  },
+  {
+    "id": "fantasy-ronaldo-caricature",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Карикатура Роналду у формі Реал Мадрид",
+    "description": "Спортивна карикатура",
+    "type": "image",
+    "src": "assets/images/fantasy-ronaldo-caricature.jpg"
+  },
+  {
+    "id": "fantasy-eye-dino-reflection",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Око з відображенням динозавра",
+    "description": "Макро-концепція з фантастичним сюжетом",
+    "type": "image",
+    "src": "assets/images/fantasy-eye-dino-reflection.jpg"
+  },
+  {
+    "id": "fantasy-ninja-turtle-figure",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Рука з фігуркою черепашки-ніндзя",
+    "description": "Предметна композиція з колекційною фігуркою",
+    "type": "image",
+    "src": "assets/images/fantasy-ninja-turtle-figure.jpg"
+  },
+  {
+    "id": "fantasy-football-chase",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Переслідування футбольним м'ячем",
+    "description": "Динамічна спортивна сцена",
+    "type": "image",
+    "src": "assets/images/fantasy-football-chase.jpg"
+  },
+  {
+    "id": "fantasy-happy-dog-stadium",
+    "category": "images",
+    "subcategory": "fantasies",
+    "title": "Щасливий пес у футбольній арені",
+    "description": "Емоційна спортивна сцена",
+    "type": "image",
+    "src": "assets/images/fantasy-happy-dog-stadium.jpg"
+  },
+  {
     "id": "ivan-photosession-1",
     "category": "images",
     "subcategory": "photosessions",

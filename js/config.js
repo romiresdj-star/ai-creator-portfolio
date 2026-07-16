@@ -8,7 +8,8 @@ const PORTFOLIO_TAXONOMY = [
     subcategories: [
       { id: "photosessions", label: "AI-фотосесії", desc: "Портретні та образні генерації" },
       { id: "banners", label: "Банери та реклама", desc: "Рекламні креативи та банери" },
-      { id: "restoration", label: "Реставрація фото", desc: "Покращення старих та розмитих фото" }
+      { id: "restoration", label: "Реставрація фото", desc: "Покращення старих та розмитих фото" },
+      { id: "fantasies", label: "Фантазії автора", desc: "Креативні концепти та експериментальні генерації" }
     ]
   },
   {
