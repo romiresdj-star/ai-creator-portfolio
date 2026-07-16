@@ -132,5 +132,15 @@
     "type": "video",
     "src": "assets/videos/football-boot-product.mp4",
     "thumbnail": "assets/thumbnails/football-boot-product.jpg"
+  },
+  {
+    "id": "ugc-fiverr-showcase-1",
+    "category": "video",
+    "subcategory": "ugc",
+    "title": "AI UGC — розмовне відео",
+    "description": "Talking-head формат для рекламного контенту",
+    "type": "video",
+    "src": "assets/videos/ugc-fiverr-showcase.mp4",
+    "thumbnail": "assets/thumbnails/ugc-fiverr-showcase.jpg"
   }
 ]
