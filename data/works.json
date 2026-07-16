@@ -293,6 +293,36 @@
     "thumbnail": "assets/thumbnails/watch-product.jpg"
   },
   {
+    "id": "perfume-bottle-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Флакон парфуму — відео товару",
+    "description": "Рекламний ролик флакону парфуму",
+    "type": "video",
+    "src": "assets/videos/perfume-bottle-product.mp4",
+    "thumbnail": "assets/thumbnails/perfume-bottle-product.jpg"
+  },
+  {
+    "id": "tech-chip-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Технологічний чіп — відео товару",
+    "description": "Рекламний ролик технологічного продукту",
+    "type": "video",
+    "src": "assets/videos/tech-chip-product.mp4",
+    "thumbnail": "assets/thumbnails/tech-chip-product.jpg"
+  },
+  {
+    "id": "garnier-cream-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Крем Garnier — відео товару",
+    "description": "Рекламний ролик косметичного крему",
+    "type": "video",
+    "src": "assets/videos/garnier-cream-product.mp4",
+    "thumbnail": "assets/thumbnails/garnier-cream-product.jpg"
+  },
+  {
     "id": "lipstick-product-1",
     "category": "video",
     "subcategory": "product",
