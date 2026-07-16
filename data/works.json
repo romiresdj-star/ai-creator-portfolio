@@ -1,5 +1,126 @@
 [
   {
+    "id": "ivan-photosession-1",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 1",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-1.jpg"
+  },
+  {
+    "id": "ivan-photosession-2",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 2",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-2.jpg"
+  },
+  {
+    "id": "ivan-photosession-3",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 3",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-3.jpg"
+  },
+  {
+    "id": "ivan-photosession-4",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 4",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-4.jpg"
+  },
+  {
+    "id": "ivan-photosession-5",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 5",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-5.jpg"
+  },
+  {
+    "id": "ivan-photosession-6",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 6",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-6.jpg"
+  },
+  {
+    "id": "ivan-photosession-7",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 7",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-7.jpg"
+  },
+  {
+    "id": "ivan-photosession-8",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 8",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-8.jpg"
+  },
+  {
+    "id": "ivan-photosession-9",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 9",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-9.jpg"
+  },
+  {
+    "id": "ivan-photosession-10",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 10",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-10.jpg"
+  },
+  {
+    "id": "ivan-photosession-11",
+    "category": "images",
+    "subcategory": "photosessions",
+    "group": "ivan-photosession",
+    "groupTitle": "Іван — фотосесія",
+    "title": "Іван — AI-фотосесія 11",
+    "description": "Згенерований образ моделі",
+    "type": "image",
+    "src": "assets/images/ivan-photosession-11.jpg"
+  },
+  {
     "id": "mia-photosession-1",
     "category": "images",
     "subcategory": "photosessions",
