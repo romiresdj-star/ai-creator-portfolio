@@ -272,17 +272,6 @@
     "thumbnail": "assets/thumbnails/kindergarten-cartoon.jpg"
   },
   {
-    "id": "demo-motion-1",
-    "category": "video",
-    "subcategory": "motion",
-    "title": "Приклад: моушн-дизайн",
-    "description": "Заміни на свою роботу — додай новий об'єкт у цей файл.",
-    "type": "video",
-    "src": "",
-    "thumbnail": "assets/thumbnails/placeholder-video.svg",
-    "placeholder": true
-  },
-  {
     "id": "watch-product-1",
     "category": "video",
     "subcategory": "product",
@@ -293,14 +282,14 @@
     "thumbnail": "assets/thumbnails/watch-product.jpg"
   },
   {
-    "id": "perfume-bottle-product-1",
+    "id": "night-city-flyover-1",
     "category": "video",
-    "subcategory": "product",
-    "title": "Флакон парфуму — відео товару",
-    "description": "Рекламний ролик флакону парфуму",
+    "subcategory": "motion",
+    "title": "Політ над нічним містом",
+    "description": "Кінематографічний моушн-ролик",
     "type": "video",
-    "src": "assets/videos/perfume-bottle-product.mp4",
-    "thumbnail": "assets/thumbnails/perfume-bottle-product.jpg"
+    "src": "assets/videos/night-city-flyover.mp4",
+    "thumbnail": "assets/thumbnails/night-city-flyover.jpg"
   },
   {
     "id": "tech-chip-product-1",
