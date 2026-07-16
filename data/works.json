@@ -292,14 +292,14 @@
     "thumbnail": "assets/thumbnails/night-city-flyover.jpg"
   },
   {
-    "id": "tech-chip-product-1",
+    "id": "restaurant-business-card-1",
     "category": "video",
-    "subcategory": "product",
-    "title": "Технологічний чіп — відео товару",
-    "description": "Рекламний ролик технологічного продукту",
+    "subcategory": "motion",
+    "title": "Візитка ресторану",
+    "description": "Анімована презентація дизайну візитки",
     "type": "video",
-    "src": "assets/videos/tech-chip-product.mp4",
-    "thumbnail": "assets/thumbnails/tech-chip-product.jpg"
+    "src": "assets/videos/restaurant-business-card.mp4",
+    "thumbnail": "assets/thumbnails/restaurant-business-card.jpg"
   },
   {
     "id": "garnier-cream-product-1",
