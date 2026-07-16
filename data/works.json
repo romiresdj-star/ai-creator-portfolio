@@ -364,14 +364,14 @@
     "placeholder": true
   },
   {
-    "id": "kindergarten-cartoon-1",
+    "id": "football-boot-product-1",
     "category": "video",
-    "subcategory": "animation",
-    "title": "Дитячий садок — мультфільм",
-    "description": "Анімований відеоролик",
+    "subcategory": "product",
+    "title": "Футбольний бутс — відео товару",
+    "description": "Рекламний ролик спортивного взуття",
     "type": "video",
-    "src": "assets/videos/kindergarten-cartoon.mp4",
-    "thumbnail": "assets/thumbnails/kindergarten-cartoon.jpg"
+    "src": "assets/videos/football-boot-product.mp4",
+    "thumbnail": "assets/thumbnails/football-boot-product.jpg"
   },
   {
     "id": "watch-product-1",
@@ -444,16 +444,6 @@
     "thumbnail": "assets/thumbnails/sunis-solar-ad.jpg"
   },
   {
-    "id": "football-boot-product-1",
-    "category": "video",
-    "subcategory": "product",
-    "title": "Футбольний бутс — відео товару",
-    "description": "Рекламний ролик спортивного взуття",
-    "type": "video",
-    "src": "assets/videos/football-boot-product.mp4",
-    "thumbnail": "assets/thumbnails/football-boot-product.jpg"
-  },
-  {
     "id": "ugc-fiverr-showcase-1",
     "category": "video",
     "subcategory": "ugc",
@@ -462,5 +452,15 @@
     "type": "video",
     "src": "assets/videos/ugc-fiverr-showcase.mp4",
     "thumbnail": "assets/thumbnails/ugc-fiverr-showcase.jpg"
+  },
+  {
+    "id": "kindergarten-cartoon-1",
+    "category": "video",
+    "subcategory": "animation",
+    "title": "Дитячий садок — мультфільм",
+    "description": "Анімований відеоролик",
+    "type": "video",
+    "src": "assets/videos/kindergarten-cartoon.mp4",
+    "thumbnail": "assets/thumbnails/kindergarten-cartoon.jpg"
   }
 ]
