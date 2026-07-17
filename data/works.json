@@ -374,6 +374,36 @@
     "thumbnail": "assets/thumbnails/football-boot-product.jpg"
   },
   {
+    "id": "yard-transformation-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Швидке облаштування подвір'я",
+    "description": "Рекламний ролик до/після ландшафтних робіт",
+    "type": "video",
+    "src": "assets/videos/yard-transformation-product.mp4",
+    "thumbnail": "assets/thumbnails/yard-transformation-product.jpg"
+  },
+  {
+    "id": "house-build-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Швидке будівництво будинку",
+    "description": "Рекламний ролик до/після будівельних робіт",
+    "type": "video",
+    "src": "assets/videos/house-build-product.mp4",
+    "thumbnail": "assets/thumbnails/house-build-product.jpg"
+  },
+  {
+    "id": "ram-truck-product-1",
+    "category": "video",
+    "subcategory": "product",
+    "title": "RAM — реклама пікапа",
+    "description": "Рекламний ролик автомобіля",
+    "type": "video",
+    "src": "assets/videos/ram-truck-product.mp4",
+    "thumbnail": "assets/thumbnails/ram-truck-product.jpg"
+  },
+  {
     "id": "watch-product-1",
     "category": "video",
     "subcategory": "product",
