@@ -394,16 +394,6 @@
     "thumbnail": "assets/thumbnails/house-build-motion.jpg"
   },
   {
-    "id": "ram-truck-product-1",
-    "category": "video",
-    "subcategory": "product",
-    "title": "RAM — реклама пікапа",
-    "description": "Рекламний ролик автомобіля",
-    "type": "video",
-    "src": "assets/videos/ram-truck-product.mp4",
-    "thumbnail": "assets/thumbnails/ram-truck-product.jpg"
-  },
-  {
     "id": "watch-product-1",
     "category": "video",
     "subcategory": "product",
