@@ -374,24 +374,24 @@
     "thumbnail": "assets/thumbnails/football-boot-product.jpg"
   },
   {
-    "id": "yard-transformation-product-1",
+    "id": "yard-transformation-motion-1",
     "category": "video",
-    "subcategory": "product",
+    "subcategory": "motion",
     "title": "Швидке облаштування подвір'я",
-    "description": "Рекламний ролик до/після ландшафтних робіт",
+    "description": "Динамічний ролик-трансформація до/після",
     "type": "video",
-    "src": "assets/videos/yard-transformation-product.mp4",
-    "thumbnail": "assets/thumbnails/yard-transformation-product.jpg"
+    "src": "assets/videos/yard-transformation-motion.mp4",
+    "thumbnail": "assets/thumbnails/yard-transformation-motion.jpg"
   },
   {
-    "id": "house-build-product-1",
+    "id": "house-build-motion-1",
     "category": "video",
-    "subcategory": "product",
+    "subcategory": "motion",
     "title": "Швидке будівництво будинку",
-    "description": "Рекламний ролик до/після будівельних робіт",
+    "description": "Динамічний ролик-трансформація до/після",
     "type": "video",
-    "src": "assets/videos/house-build-product.mp4",
-    "thumbnail": "assets/thumbnails/house-build-product.jpg"
+    "src": "assets/videos/house-build-motion.mp4",
+    "thumbnail": "assets/thumbnails/house-build-motion.jpg"
   },
   {
     "id": "ram-truck-product-1",
