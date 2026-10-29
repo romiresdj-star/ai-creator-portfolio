@@ -18,6 +18,8 @@ async function loadWorks() {
 function updateStats() {
   const real = ALL_WORKS.filter((w) => !w.placeholder).length;
   document.getElementById("stat-total").textContent = real;
+  document.getElementById("stat-directions").textContent =
+    PORTFOLIO_TAXONOMY.reduce((count, category) => count + category.subcategories.length, 0);
 }
 
 function buildSections() {
@@ -36,7 +38,7 @@ function buildSections() {
         <div class="category-icon">${ICONS[cat.icon] || ""}</div>
         <div>
           <h3>${cat.label}</h3>
-          <p>${cat.subcategories.length} напрямки роботи</p>
+          <p>${cat.subcategories.length} ${cat.subcategories.length === 1 ? "напрямок" : cat.subcategories.length < 5 ? "напрямки" : "напрямків"} роботи</p>
         </div>
       </div>
       <div class="subcat-tabs" data-cat="${cat.id}">

@@ -53,7 +53,7 @@ assets/thumbnails/     — прев'ю для відео (кадр-обклад�
 ### Доступні значення `category` / `subcategory`
 
 - `images`: `photosessions`, `banners`, `restoration`
-- `video`: `ugc`, `animation`, `motion`, `product`
+- `video`: `ugc`, `animation`, `motion`, `product`, `cinematic`
 
 Ці значення визначені у `js/config.js` — там же можна змінити назви/опис категорій, які бачить відвідувач.
 

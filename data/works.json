@@ -482,5 +482,95 @@
     "type": "video",
     "src": "assets/videos/kindergarten-cartoon.mp4",
     "thumbnail": "assets/thumbnails/kindergarten-cartoon.jpg"
+  },
+  {
+    "id": "club-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Клуб",
+    "description": "Кінематографічний відеоролик",
+    "type": "video",
+    "src": "assets/videos/club.mp4",
+    "thumbnail": "assets/thumbnails/club.jpg"
+  },
+  {
+    "id": "dawn-code-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Код світанку",
+    "description": "Сюжетний відеоролик",
+    "type": "video",
+    "src": "assets/videos/dawn-code.mp4",
+    "thumbnail": "assets/thumbnails/dawn-code.jpg"
+  },
+  {
+    "id": "letter-to-major-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Лист до мажора",
+    "description": "Сюжетний відеоролик",
+    "type": "video",
+    "src": "assets/videos/letter-to-major.mp4",
+    "thumbnail": "assets/thumbnails/letter-to-major.jpg"
+  },
+  {
+    "id": "last-card-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Остання карта",
+    "description": "Пригодницький кінематографічний ролик",
+    "type": "video",
+    "src": "assets/videos/last-card.mp4",
+    "thumbnail": "assets/thumbnails/last-card.jpg"
+  },
+  {
+    "id": "tai-take-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Тай Таке",
+    "description": "Сюжетний відеоролик",
+    "type": "video",
+    "src": "assets/videos/tai-take.mp4",
+    "thumbnail": "assets/thumbnails/tai-take.jpg"
+  },
+  {
+    "id": "shipping-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Морські перевезення",
+    "description": "Кінематографічні кадри контейнерного судна",
+    "type": "video",
+    "src": "assets/videos/shipping-film.mp4",
+    "thumbnail": "assets/thumbnails/shipping-film.jpg"
+  },
+  {
+    "id": "food-fire-product",
+    "category": "video",
+    "subcategory": "product",
+    "title": "Кулінарний ролик",
+    "description": "Динамічна відеопрезентація страви",
+    "type": "video",
+    "src": "assets/videos/food-fire.mp4",
+    "thumbnail": "assets/thumbnails/food-fire.jpg"
+  },
+  {
+    "id": "phone-lifestyle-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Історія зі смартфоном",
+    "description": "Кінематографічний лайфстайл-ролик",
+    "type": "video",
+    "src": "assets/videos/phone-lifestyle.mp4",
+    "thumbnail": "assets/thumbnails/phone-lifestyle.jpg"
+  },
+  {
+    "id": "restaurant-scene-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Сцена в ресторані",
+    "description": "Креативний кінематографічний ролик",
+    "type": "video",
+    "src": "assets/videos/restaurant-scene.mp4",
+    "thumbnail": "assets/thumbnails/restaurant-scene.jpg"
   }
 ]
