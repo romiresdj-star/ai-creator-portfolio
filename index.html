@@ -16,12 +16,18 @@
       <span class="logo-text">Portfolio<span>.</span></span>
     </a>
     <nav class="main-nav" id="main-nav">
-      <a href="#cat-images">Зображення</a>
-      <a href="#cat-video">Відео</a>
-      <a href="#about">Про мене</a>
-      <a href="#contact">Контакти</a>
+      <a href="#cat-images" data-i18n="images">Зображення</a>
+      <a href="#cat-video" data-i18n="videos">Відео</a>
+      <a href="#about" data-i18n="about">Про мене</a>
+      <a href="#contact" data-i18n="contact">Контакти</a>
     </nav>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Меню">&#9776;</button>
+    <div class="header-actions">
+      <div class="language-switch" role="group" aria-label="Language / Мова">
+        <button type="button" class="language-btn active" data-lang="uk" aria-pressed="true">UA</button>
+        <button type="button" class="language-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Меню" data-i18n-aria="menu">&#9776;</button>
+    </div>
   </div>
 </header>
 
@@ -30,16 +36,16 @@
   <section class="hero">
     <div class="container">
       <span class="hero-eyebrow">AI Content Creator</span>
-      <h1>Створюю <span class="grad">згенерований контент</span><br>для брендів та проєктів</h1>
-      <p>Зображення, відео, анімація та рекламні матеріали, створені за допомогою штучного інтелекту — від ідеї до готового результату.</p>
+      <h1 data-i18n-html="heroTitle">Створюю <span class="grad">згенерований контент</span><br>для брендів та проєктів</h1>
+      <p data-i18n="heroDescription">Зображення, відео, анімація та рекламні матеріали, створені за допомогою штучного інтелекту — від ідеї до готового результату.</p>
       <div class="hero-actions">
-        <a href="#cat-images" class="btn btn-primary">Дивитись роботи</a>
-        <a href="#contact" class="btn btn-secondary">Зв'язатись</a>
+        <a href="#cat-images" class="btn btn-primary" data-i18n="viewWork">Дивитись роботи</a>
+        <a href="#contact" class="btn btn-secondary" data-i18n="getInTouch">Зв'язатись</a>
       </div>
       <div class="hero-stats">
-        <div><strong id="stat-total">0</strong><span>робіт у портфоліо</span></div>
-        <div><strong id="stat-directions">0</strong><span>напрямків роботи</span></div>
-        <div><strong>2</strong><span>формати: фото та відео</span></div>
+        <div><strong id="stat-total">0</strong><span data-i18n="worksCount">робіт у портфоліо</span></div>
+        <div><strong id="stat-directions">0</strong><span data-i18n="directionsCount">напрямків роботи</span></div>
+        <div><strong>2</strong><span data-i18n="formatsCount">формати: фото та відео</span></div>
       </div>
     </div>
   </section>
@@ -48,9 +54,9 @@
     <div class="container">
       <div class="section-head">
         <div>
-          <span class="section-kicker">Портфоліо</span>
-          <h2>Роботи по категоріях</h2>
-          <p>Обирай категорію та підрозділ, щоб переглянути роботи.</p>
+          <span class="section-kicker" data-i18n="portfolio">Портфоліо</span>
+          <h2 data-i18n="worksByCategory">Роботи по категоріях</h2>
+          <p data-i18n="chooseCategory">Обирай категорію та підрозділ, щоб переглянути роботи.</p>
         </div>
       </div>
       <div id="portfolio-sections"></div>
@@ -61,23 +67,23 @@
     <div class="container">
       <div class="section-head">
         <div>
-          <span class="section-kicker">Про мене</span>
-          <h2>AI-креатор генеративного контенту</h2>
+          <span class="section-kicker" data-i18n="about">Про мене</span>
+          <h2 data-i18n="aboutHeading">AI-креатор генеративного контенту</h2>
         </div>
       </div>
       <div class="about-grid">
         <div class="about-card">
-          <p>Займаюсь створенням контенту за допомогою нейромереж: від фотореалістичних зображень і банерів до анімованих відеороликів та рекламних кампаній. Портфоліо постійно поповнюється новими роботами.</p>
+          <p data-i18n="aboutIntro">Займаюсь створенням контенту за допомогою нейромереж: від фотореалістичних зображень і банерів до анімованих відеороликів та рекламних кампаній. Портфоліо постійно поповнюється новими роботами.</p>
           <ul class="skills-list">
-            <li>Генерація зображень та фотосесій</li>
-            <li>Реставрація та покращення старих фото</li>
-            <li>Створення мультфільмів у 3D, аніме та інших стилях</li>
-            <li>Генерація відео: UGC, анімація, моушн-дизайн</li>
-            <li>Рекламні креативи та відео товарів</li>
+            <li data-i18n="skillImages">Генерація зображень та фотосесій</li>
+            <li data-i18n="skillRestoration">Реставрація та покращення старих фото</li>
+            <li data-i18n="skillAnimation">Створення мультфільмів у 3D, аніме та інших стилях</li>
+            <li data-i18n="skillVideo">Генерація відео: UGC, анімація, моушн-дизайн</li>
+            <li data-i18n="skillAds">Рекламні креативи та відео товарів</li>
           </ul>
         </div>
         <div class="about-card">
-          <p>Портфоліо структуроване по напрямках роботи, щоб було легко знайти приклади потрібного формату. Нові роботи додаються регулярно — заходь ще раз, щоб побачити оновлення.</p>
+          <p data-i18n="aboutOutro">Портфоліо структуроване по напрямках роботи, щоб було легко знайти приклади потрібного формату. Нові роботи додаються регулярно — заходь ще раз, щоб побачити оновлення.</p>
         </div>
       </div>
     </div>
@@ -85,9 +91,9 @@
 
   <section id="contact" class="contact-section">
     <div class="container">
-      <span class="section-kicker">Контакти</span>
-      <h2>Готовий обговорити проєкт</h2>
-      <p style="color: var(--text-dim); max-width: 480px; margin: 10px auto 0;">Напиши мені, щоб замовити роботу або обговорити співпрацю.</p>
+      <span class="section-kicker" data-i18n="contact">Контакти</span>
+      <h2 data-i18n="contactHeading">Готовий обговорити проєкт</h2>
+      <p data-i18n="contactIntro" style="color: var(--text-dim); max-width: 480px; margin: 10px auto 0;">Напиши мені, щоб замовити роботу або обговорити співпрацю.</p>
       <div class="contact-links">
         <a class="contact-link" href="mailto:romanandreiko2710@gmail.com">
           <span class="contact-icon icon-email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg></span>
@@ -115,7 +121,7 @@
 
 </main>
 
-<aside class="social-float" aria-label="Соціальні мережі">
+<aside class="social-float" aria-label="Соціальні мережі" data-i18n-aria="socialLinks">
   <a class="social-float-btn icon-wa" href="https://wa.me/380962399496?text=Привіт!%20Хочу%20замовити%20роботу.%20З%20чого%20краще%20почати%3F" target="_blank" rel="noopener" title="WhatsApp">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20l1.4-4.2A8 8 0 1 1 9 18.5L4 20z"/><path d="M8.5 9.5c0 3 2.5 5.5 5.5 5.5"/></svg>
   </a>
@@ -132,14 +138,14 @@
 
 <footer>
   <div class="container">
-    &copy; <span id="year"></span> AI Portfolio. Створено за допомогою штучного інтелекту.
+    &copy; <span id="year"></span> <span data-i18n="footer">AI Portfolio. Створено за допомогою штучного інтелекту.</span>
   </div>
 </footer>
 
 <div class="lightbox" id="lightbox">
-  <button class="lightbox-close" id="lightbox-close">&times;</button>
-  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" title="Попереднє">&#8249;</button>
-  <button class="lightbox-nav lightbox-next" id="lightbox-next" title="Наступне">&#8250;</button>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Закрити" data-i18n-aria="close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" title="Попереднє" data-i18n-title="previous">&#8249;</button>
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" title="Наступне" data-i18n-title="next">&#8250;</button>
   <div class="lightbox-content">
     <div class="lightbox-media" id="lightbox-media"></div>
     <div class="lightbox-info">
@@ -149,6 +155,7 @@
   </div>
 </div>
 
+<script src="js/i18n.js"></script>
 <script src="js/config.js"></script>
 <script src="js/script.js"></script>
 <script>

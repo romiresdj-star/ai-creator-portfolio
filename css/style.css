@@ -102,6 +102,40 @@ body::before {
 
 .main-nav a:hover { color: var(--text); background: var(--bg-elevated); }
 
+.header-actions { display: flex; align-items: center; gap: 12px; }
+
+.language-switch {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--bg-elevated);
+}
+
+.language-btn {
+  min-width: 38px;
+  min-height: 32px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.language-btn.active {
+  background: var(--accent-gradient);
+  color: #05070c;
+}
+
+.language-btn:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
 .nav-toggle {
   display: none;
   background: none;

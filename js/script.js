@@ -7,12 +7,96 @@ const ICONS = {
 
 let ALL_WORKS = [];
 const activeSubcat = {};
+let currentLanguage = "uk";
+const UK_UI = {};
+
+function uiText(key) {
+  return currentLanguage === "en" ? EN_UI[key] : UK_UI[key];
+}
+
+function categoryText(category, field) {
+  return currentLanguage === "en" ? EN_TAXONOMY[category.id][0] : category[field];
+}
+
+function subcategoryText(category, subcategory, field) {
+  if (currentLanguage !== "en") return subcategory[field];
+  const translation = EN_TAXONOMY[category.id][1][subcategory.id];
+  return translation[field === "label" ? 0 : 1];
+}
+
+function updateContactLinks() {
+  const message = currentLanguage === "en"
+    ? "Hello! I'd like to commission a project. What's the best way to get started?"
+    : "Привіт! Хочу замовити роботу. З чого краще почати?";
+  document.querySelectorAll('a[href^="https://t.me/"], a[href^="https://wa.me/"]').forEach((link) => {
+    link.href = link.href.split("?")[0] + "?text=" + encodeURIComponent(message);
+  });
+}
+
+function setLanguage(language) {
+  currentLanguage = language === "en" ? "en" : "uk";
+  document.documentElement.lang = currentLanguage;
+  document.title = currentLanguage === "en" ? EN_UI.pageTitle : UK_UI.pageTitle;
+  document.querySelector('meta[name="description"]').content =
+    currentLanguage === "en" ? EN_UI.pageDescription : UK_UI.pageDescription;
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = uiText(element.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+    element.innerHTML = uiText(element.dataset.i18nHtml);
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
+    element.setAttribute("aria-label", uiText(element.dataset.i18nAria));
+  });
+  document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+    element.title = uiText(element.dataset.i18nTitle);
+  });
+  document.querySelectorAll(".language-btn").forEach((button) => {
+    const selected = button.dataset.lang === currentLanguage;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-pressed", String(selected));
+  });
+  updateContactLinks();
+  if (ALL_WORKS.length) buildSections();
+  if (lightboxItems.length) updateLightboxText();
+  try { localStorage.setItem("portfolio-language", currentLanguage); } catch (_) {}
+}
+
+function initLanguage() {
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    UK_UI[element.dataset.i18n] = element.textContent;
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+    UK_UI[element.dataset.i18nHtml] = element.innerHTML;
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
+    UK_UI[element.dataset.i18nAria] = element.getAttribute("aria-label");
+  });
+  document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+    UK_UI[element.dataset.i18nTitle] = element.title;
+  });
+  UK_UI.pageTitle = document.title;
+  UK_UI.pageDescription = document.querySelector('meta[name="description"]').content;
+  try {
+    if (localStorage.getItem("portfolio-language") === "en") setLanguage("en");
+  } catch (_) {}
+  document.querySelectorAll(".language-btn").forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.lang));
+  });
+}
 
 async function loadWorks() {
-  const res = await fetch("data/works.json");
-  ALL_WORKS = await res.json();
-  buildSections();
-  updateStats();
+  try {
+    const res = await fetch("data/works.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    ALL_WORKS = await res.json();
+    buildSections();
+    updateStats();
+  } catch (error) {
+    document.getElementById("portfolio-sections").textContent = uiText("loadError") ||
+      "Не вдалося завантажити портфоліо. Спробуйте пізніше.";
+    console.error("Portfolio load failed:", error);
+  }
 }
 
 function updateStats() {
@@ -27,7 +111,7 @@ function buildSections() {
   root.innerHTML = "";
 
   PORTFOLIO_TAXONOMY.forEach((cat) => {
-    activeSubcat[cat.id] = "all";
+    activeSubcat[cat.id] ||= "all";
 
     const group = document.createElement("div");
     group.className = "category-group";
@@ -37,14 +121,16 @@ function buildSections() {
       <div class="category-group-head">
         <div class="category-icon">${ICONS[cat.icon] || ""}</div>
         <div>
-          <h3>${cat.label}</h3>
-          <p>${cat.subcategories.length} ${cat.subcategories.length === 1 ? "напрямок" : cat.subcategories.length < 5 ? "напрямки" : "напрямків"} роботи</p>
+          <h3>${categoryText(cat, "label")}</h3>
+          <p>${cat.subcategories.length} ${currentLanguage === "en"
+            ? (cat.subcategories.length === 1 ? EN_UI.directionSingular : EN_UI.directionPlural)
+            : (cat.subcategories.length === 1 ? "напрямок" : cat.subcategories.length < 5 ? "напрямки" : "напрямків") + " роботи"}</p>
         </div>
       </div>
       <div class="subcat-tabs" data-cat="${cat.id}">
-        <button class="subcat-tab active" data-sub="all">Усі роботи</button>
+        <button class="subcat-tab ${activeSubcat[cat.id] === "all" ? "active" : ""}" data-sub="all">${currentLanguage === "en" ? EN_UI.allWork : "Усі роботи"}</button>
         ${cat.subcategories
-          .map((s) => `<button class="subcat-tab" data-sub="${s.id}" title="${s.desc}">${s.label}</button>`)
+          .map((s) => `<button class="subcat-tab ${activeSubcat[cat.id] === s.id ? "active" : ""}" data-sub="${s.id}" title="${subcategoryText(cat, s, "desc")}">${subcategoryText(cat, s, "label")}</button>`)
           .join("")}
       </div>
       <div class="work-grid" data-grid="${cat.id}"></div>
@@ -76,7 +162,7 @@ function renderGrid(catId) {
   );
 
   if (items.length === 0) {
-    grid.innerHTML = `<p class="empty-note">Робіт у цьому розділі поки немає — незабаром з'являться.</p>`;
+    grid.innerHTML = `<p class="empty-note">${currentLanguage === "en" ? EN_UI.empty : "Робіт у цьому розділі поки немає — незабаром з'являться."}</p>`;
     return;
   }
 
@@ -104,19 +190,21 @@ function renderGrid(catId) {
         ?.subcategories.find((s) => s.id === cover.subcategory);
       const thumbSrc = cover.type === "video" ? cover.thumbnail : cover.src;
       const isVideo = cover.type === "video";
-      const displayTitle = unit.isGroup ? cover.groupTitle || cover.title : cover.title;
+      const displayTitle = unit.isGroup
+        ? workText(cover, "groupTitle", currentLanguage) || workText(cover, "title", currentLanguage)
+        : workText(cover, "title", currentLanguage);
 
       return `
         <article class="work-card ${cover.placeholder ? "is-placeholder" : ""}" data-group-key="${unit.isGroup ? cover.group : ""}">
           <div class="work-thumb">
             <img src="${thumbSrc}" alt="${displayTitle}" loading="lazy">
             ${isVideo ? `<div class="play-badge"><span>${ICONS.play}</span></div>` : ""}
-            ${unit.isGroup && unit.items.length > 1 ? `<span class="stack-badge">${unit.items.length} фото</span>` : ""}
+            ${unit.isGroup && unit.items.length > 1 ? `<span class="stack-badge">${unit.items.length} ${currentLanguage === "en" ? EN_UI.photos : "фото"}</span>` : ""}
           </div>
           <div class="work-info">
             <h4>${displayTitle}</h4>
-            <p>${cover.description || ""}</p>
-            <span class="work-tag">${cover.placeholder ? "Приклад" : taxSub?.label || ""}</span>
+            <p>${workText(cover, "description", currentLanguage)}</p>
+            <span class="work-tag">${cover.placeholder ? (currentLanguage === "en" ? EN_UI.example : "Приклад") : taxSub ? subcategoryText(PORTFOLIO_TAXONOMY.find((c) => c.id === cover.category), taxSub, "label") : ""}</span>
           </div>
         </article>
       `;
@@ -150,10 +238,15 @@ function renderLightboxItem() {
 
   mediaWrap.innerHTML = showAsVideo
     ? `<video src="${item.src}" controls autoplay></video>`
-    : `<img src="${item.type === "video" ? item.thumbnail : item.src}" alt="${item.title}">`;
+    : `<img src="${item.type === "video" ? item.thumbnail : item.src}" alt="${workText(item, "title", currentLanguage)}">`;
 
-  title.textContent = item.title;
-  desc.textContent = item.description || "";
+  updateLightboxText();
+}
+
+function updateLightboxText() {
+  const item = lightboxItems[lightboxIndex];
+  document.getElementById("lightbox-title").textContent = workText(item, "title", currentLanguage);
+  document.getElementById("lightbox-desc").textContent = workText(item, "description", currentLanguage);
 }
 
 function lightboxStep(delta) {
@@ -178,6 +271,7 @@ function initNav() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initLanguage();
   loadWorks();
   initNav();
   document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
