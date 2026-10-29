@@ -160,6 +160,7 @@ function renderGrid(catId) {
   const items = ALL_WORKS.filter(
     (w) => w.category === catId && (sub === "all" || w.subcategory === sub)
   );
+  if (catId === "video") items.reverse();
 
   if (items.length === 0) {
     grid.innerHTML = `<p class="empty-note">${currentLanguage === "en" ? EN_UI.empty : "Робіт у цьому розділі поки немає — незабаром з'являться."}</p>`;
