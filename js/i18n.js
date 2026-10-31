@@ -98,7 +98,8 @@ const EN_WORKS = {
   "shipping-film": ["Ocean shipping", "Cinematic footage of a container ship"],
   "food-fire-product": ["Cooking video", "Dynamic food presentation"],
   "phone-lifestyle-film": ["A story with a smartphone", "Cinematic lifestyle video"],
-  "restaurant-scene-film": ["Restaurant scene", "Creative cinematic video"]
+  "restaurant-scene-film": ["Restaurant scene", "Creative cinematic video"],
+  "halloween-film": ["Halloween", "Short cinematic horror video"]
 };
 
 function workText(item, field, language) {

@@ -572,5 +572,15 @@
     "type": "video",
     "src": "assets/videos/restaurant-scene.mp4",
     "thumbnail": "assets/thumbnails/restaurant-scene.jpg"
+  },
+  {
+    "id": "halloween-film",
+    "category": "video",
+    "subcategory": "cinematic",
+    "title": "Хеллоуін",
+    "description": "Короткий кінематографічний ролик у стилі горору",
+    "type": "video",
+    "src": "assets/halloween/halloween.mp4",
+    "thumbnail": "assets/halloween/thumbnail.jpg"
   }
 ]
